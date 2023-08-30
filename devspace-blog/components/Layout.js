@@ -11,7 +11,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
       </Head>
       <Header />
-      <main className="container mx-auto my-7 p-10">{children}</main>
+      <main className="container mx-auto text-gray-700 my-7 p-10 ">{children}</main>
     </div>
   );
 }
