@@ -3,10 +3,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "cache-posts": "node scripts/cache.js",
+    "prepare": "cd .. && husky install"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
+    "husky": "^8.0.3",
     "marked": "^8.0.0",
     "next": "latest",
     "react": "18.2.0",
