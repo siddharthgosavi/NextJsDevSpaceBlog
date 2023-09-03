@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "./Header";
+import Search from "./Search";
 
 export default function Layout({ title, keywords, description, children }) {
   return (
@@ -11,6 +12,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
       </Head>
       <Header />
+      <Search />
       <main className="container mx-auto text-gray-700 my-7 p-10 ">{children}</main>
     </div>
   );
