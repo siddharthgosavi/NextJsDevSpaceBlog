@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-cd devspace-blog\ && npm run cache-posts && git add devspace-blog\cache\data.js
+cd */. && npm run cache-posts && git add cache/data.js
