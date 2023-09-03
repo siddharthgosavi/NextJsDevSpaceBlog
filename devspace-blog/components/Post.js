@@ -4,7 +4,7 @@ import CategoryLabel from "./CategoryLabel";
 
 export default function Post({ post }) {
   return (
-    <div className=" w-full px-10 py-6 bg-gray-100 border-gray-100  rounded-lg shadow-md shadow-gray-400  mt-6">
+    <div className=" w-full px-10 py-6 bg-white border-gray-100  rounded-lg shadow-md shadow-gray-400  mt-6">
       <div className="overflow-hidden">
         <Image src={post.frontmatter.cover_image} alt="post image" height={420} width={600} className="overflow-hidden mb-4 rounded  hover:rounded hover:scale-105 duration-200" />
       </div>
